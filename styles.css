@@ -1,0 +1,189 @@
+.body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('images/arkaplan.webp') no-repeat center center fixed;
+    background-size: cover;
+    flex-direction: column;
+    color: #fff;
+}
+.yonetici {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('images/gri.jpg') no-repeat center center fixed;
+    background-size: cover;
+    flex-direction: column;
+    color: #fff;
+}
+span {
+    position: relative;
+    bottom: 20px;
+   
+}
+.btnekle {
+    position: absolute;
+    right: 50px; 
+    padding: 12px;
+    margin: 5px 0;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+    border: none;
+    font-size: 14px;
+}
+.kutu {
+    position: relative;
+    bottom: 20px;
+width: 50px;
+}
+
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    gap: 20px;
+}
+
+.left, .right {
+    position: relative;
+    width: 50%;
+    padding: 20px;
+    background: rgba(245, 245, 245, 0.95); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #333; 
+}
+.left1, .right1 {
+    position: relative;
+    width: 50%;
+    padding: 20px;
+    background: rgba(245, 245, 245, 0.95); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #222020; 
+}
+
+h1, h2, h3 {
+    color: #222; 
+}
+.fis{
+    
+    width: 30%;
+    margin-top: 15px;
+    padding: 15px;
+    background: rgba(245, 245, 245, 0.95); 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #333;
+
+}
+
+.fish2{
+    margin-left: 60px;
+}
+
+.kategori-btn {
+    padding: 14px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.kategori-btn.kahve {
+    
+    background-color: #ff571a; 
+    color: white;
+}
+.kategori-btn.kahve1{
+    background-color: #ff571a; 
+    color: white;
+}
+
+.kategori-btn.cay {
+    background-color: #17A2B8; 
+    color: white;
+}
+
+.kategori-btn.tatli {
+    background-color: #6F42C1; 
+    color: white;
+}
+.kategori-btn.atistirmalik {
+ background-color: #8f0b0b;
+    color: white;
+}
+
+.kategori-btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.btn {
+    padding: 12px;
+    margin: 5px 0;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+    border: none;
+    font-size: 14px;
+}
+
+.btn-green {
+    background-color: #2cb52c;
+    color: white;
+}
+
+.btn-red {
+    background-color: #DC3545;
+    color: white;
+}
+
+.btn-blue {
+    background-color: #3a9aef;
+    color: white;
+}
+.btn-yoncam {
+    background-color: #3a0303;
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.urun-resim {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.date-time {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 14px;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
